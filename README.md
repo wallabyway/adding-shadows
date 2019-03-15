@@ -78,6 +78,31 @@ viewer.impl.renderer().setAOOptions(300, 0.7);
 ```
 
 
+# BONUS Section
+
+### Sharper SAO (Scalable Ambient Obscurancy)
+
+1. pull the latest version of viewer3D.js (https://developer.api.autodesk.com/modelderivative/v2/viewers/6.5.2/viewer3D.js)
+2. search/replace `define SCALE` and change scale value from `(2)` to `(1)` 
+
+This will have a small rendering performance hit on "pixel fill rate" (so, zoom-in full screen and GPU slow down might happen when 'smooth navigation' flag is off).
+
+To use the modified viewer, just use "Chrome-ReDirector" from the chrome webstore.
+
+
+### Sharper IBL Reflections (Image Based Light, ie. skybox)
+Forge Viewer environment maps (.DDS files) are only 128px x 128px resolution ... TINY!  So reflections looks blurry and metal looks dusty.
+So, to improve reflections, we need to make them sharper.  
+
+To do that, we need to create our own .DDS files, using this v. CMD tool: https://github.com/wallabyway/cubemapgen
+It quickly converts your custom .HDR or .EXR skybox file into a .DDS file for Forge Viewer.
+
+Here's sharper reflections with a custom "RiverBank.EXR" environment map at 256px x 256px.
+
+Looking better already !!!
+![sharper-SAO+IBL](https://user-images.githubusercontent.com/440241/54461156-071bbb80-4729-11e9-86b6-30b249b7f631.jpg)
+
+Also, with sharper SAO.
 
 
 ### Changing line style:
