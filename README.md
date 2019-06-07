@@ -1,5 +1,7 @@
 # ForgeViewer - Shadows and Lighting
 
+UPDATE: material background: http://help.autodesk.com/view/ARENDERING/ENU/?guid=GUID-97CC0DD3-35A8-4D8F-80A0-B1C4AD54D2B0
+
 How to add shadows to Forge-Viewer
 
 <img src="docs/shadows.mov.gif">
