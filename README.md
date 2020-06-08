@@ -67,6 +67,8 @@ addEventListener("mousemove",function(e){moveShadow(e.clientX,e.clientY)})
 
 #### [Steelcase Chair Assembly](https://myhub.autodesk360.com/ue29c3308/g/shares/SH7f1edQT22b515c761e167f79f6b3132118?viewState=NoIgbgDAdAjCA0IDeAdEAXAngBwKZoC40ARXAZwEsBzAOzXjQEMyzd1C0AzAJl2%2B4DGANiEBaTgBYArAE5REgOyzRAIym4BogcIUwJahQGZGhtAF8QAXSA) - with sunset/studio Environment lighting
 
+Another one: [Table Assembly Animation](http://assemblyinstructionviewer.steelcase.com/Viewer/AssemblyDirectionViewer?AssemblyDirectionID=13588)
+
 Jeldwen website: http://assemblyinstructionviewer.steelcase.com/Viewer/AssemblyDirectionViewer?AssemblyDirectionID=3171
 
 <table>
