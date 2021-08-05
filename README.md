@@ -14,6 +14,20 @@ How to add shadows to Forge-Viewer
 https://autodeskviewer.com/viewers-dev/latest/viewer3D.js
 ```
 
+### UPDATE:
+Actually, use LMV v7.8 or lower.  
+If you need to use latest LMV (v7.9+), then switch off of webGLv2.0 when you start LMV, like this: 
+
+```
+viewer.start(undefined, undefined, undefined, undefined, {
+                webglInitParams: {
+                    useWebGL2: false
+                }
+            });
+```
+
+A production fix is coming.  Ask about progress of LMV-6135.
+
 
 ##### 2. Set a nice environment:
 
